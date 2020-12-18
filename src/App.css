@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+@media screen and (min-width: 960px) {
+  .home {
+    padding: 0;
+  }
+  .wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+}

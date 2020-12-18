@@ -1,0 +1,43 @@
+.cart-page {
+  width: 90%;
+  .page-heading {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+
+  .cart-table {
+    width: 100%;
+    border-spacing: 4px;
+
+    thead {
+      tr {
+        th {
+          color: gray;
+          border-top: solid 1px lightgray;
+          border-bottom: solid 1px lightgray;
+          border-collapse: collapse;
+          padding: 16px 0;
+        }
+
+        th:first-child {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .cart-page {
+    width: 60%;
+
+    .page-heading {
+      padding: 0 60px;
+    }
+
+    .cart-table {
+      border-spacing: 80px 12px;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.order-total {
+  width: 300px;
+  height: 250px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-bottom: 58px;
+
+  div {
+    margin: 0px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .order-items {
+    padding-bottom: 20px;
+  }
+  .total {
+    box-sizing: border-box;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    justify-self: self-end;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .order-total {
+    margin-top: 58px;
+  }
+}
